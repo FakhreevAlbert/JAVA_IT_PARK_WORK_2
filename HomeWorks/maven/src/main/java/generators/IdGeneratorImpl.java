@@ -49,16 +49,16 @@ public class IdGeneratorImpl implements IdGenerator {
     }
 
     public int generateForApartment() {
-        int newId = lastApartmentId + 1;
+        int newApartmentId = lastApartmentId + 1;
 
         try {
             BufferedWriter apartmentWriter = new BufferedWriter(new FileWriter(apartmentIdFileName));
-            apartmentWriter.write(newId + "");
+            apartmentWriter.write(newApartmentId + "");
             apartmentWriter.close();
-            lastApartmentId = newId;
+            lastApartmentId = newApartmentId;
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return newId;
+        return newApartmentId;
     }
 }

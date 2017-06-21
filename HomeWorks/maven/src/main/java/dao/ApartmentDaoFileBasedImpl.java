@@ -67,7 +67,7 @@ public class ApartmentDaoFileBasedImpl implements ApartmentDao {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        System.out.println(result);
 
         return result;
     }

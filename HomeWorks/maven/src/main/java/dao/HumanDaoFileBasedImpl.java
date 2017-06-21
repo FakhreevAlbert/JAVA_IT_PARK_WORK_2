@@ -75,6 +75,7 @@ public class HumanDaoFileBasedImpl implements HumanDao{
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(result);
         return result;
     }
 

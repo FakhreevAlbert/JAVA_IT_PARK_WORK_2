@@ -17,16 +17,15 @@ public class FileDaoTemplate {
     public String fileNameApartment;
     public IdGenerator idGenerator;
 
-    public FileDaoTemplate(String fileNameHuman, String fileNameApartment) {
-        this.fileNameHuman = fileNameHuman;
-        this.fileNameApartment = fileNameApartment;
-    }
-
-    public FileDaoTemplate(Human human, Apartment apartment, IdGenerator idGenerator) {
+    public FileDaoTemplate(Human human, Apartment apartment, String fileNameHuman, String fileNameApartment, IdGenerator idGenerator) {
         this.human = human;
         this.apartment = apartment;
+        this.fileNameHuman = fileNameHuman;
+        this.fileNameApartment = fileNameApartment;
         this.idGenerator = idGenerator;
     }
+
+
 
     public <T> List<T> findByValue(String filename, int valueColumn, Object value, RowMapper<T> rowMapper) {
         List<T> result = new ArrayList<T>();
@@ -57,6 +56,7 @@ public class FileDaoTemplate {
             int newHumanId = idGenerator.generateForHuman();
             human.setId(newHumanId);
             human.toString();
+
             String humanAsString = human.getId()
                     + " " + human.getName()
                     + " " + human.getSurname();
@@ -69,8 +69,9 @@ public class FileDaoTemplate {
     public int saveApartment(IdGenerator idGenerator){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileNameApartment,true));
-            int newId = idGenerator.generateForApartment();
-            apartment.setId(newId);
+            int newApartmentId = idGenerator.generateForApartment();
+            apartment.setId(newApartmentId);
+            apartment.toString();
             String apartmentAsString = apartment.getId()
                     + " " + apartment.getNumber()
                     + " " + apartment.getArea()
