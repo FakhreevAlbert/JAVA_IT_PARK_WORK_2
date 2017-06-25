@@ -3,6 +3,7 @@ package services;
 
 import dao.ApartmentDao;
 import dao.HumanDao;
+import exceptions.HumanIsNotFound;
 import models.Apartment;
 import models.Human;
 
@@ -22,7 +23,7 @@ public class ApartmentService {
             apartmentDao.save(apartment);
 
         }else {
-            System.err.println("Human not found");
+            throw new HumanIsNotFound();
         }
     }
 }

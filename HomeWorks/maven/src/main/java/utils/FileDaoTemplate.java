@@ -1,6 +1,7 @@
 package utils;
 
 
+import exceptions.HumanOrApartmenIsNotFound;
 import generators.IdGenerator;
 import mappers.RowMapper;
 import models.Apartment;
@@ -27,9 +28,16 @@ public class FileDaoTemplate {
 
 
 
-    public <T> List<T> findByValue(String filename, int valueColumn, Object value, RowMapper<T> rowMapper) {
+    public <T> List<T> findByValue(String filename, int valueColumn, Object value, RowMapper<T> rowMapper)   {
         List<T> result = new ArrayList<T>();
-        try {
+        String object;
+        if (filename.equals("humans.txt")){
+            object = "Жители";
+
+        }else {
+            object = "Квартиры";
+        }
+        try{
             BufferedReader reader = new BufferedReader(new FileReader(filename));
             String currentLine = reader.readLine();
             while (currentLine != null) {
@@ -41,15 +49,28 @@ public class FileDaoTemplate {
                     result.add(founded);
                 }
                 currentLine = reader.readLine();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return result;
-    }
 
+
+                }
+                if (result.size() == 0){
+                throw new HumanOrApartmenIsNotFound(object + " по запросу: " + value + " не найдены");
+                }
+
+
+
+
+
+        } catch (FileNotFoundException e) {
+          e.getMessage();
+       } catch (IOException e) {
+           e.getMessage();
+       }
+
+        System.out.println(result);
+        return result;
+
+
+    }
     public int saveHuman(IdGenerator idGenerator) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileNameHuman, true));

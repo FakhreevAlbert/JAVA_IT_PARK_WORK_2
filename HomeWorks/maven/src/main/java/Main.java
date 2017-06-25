@@ -2,6 +2,7 @@ import dao.ApartmentDao;
 import dao.ApartmentDaoFileBasedImpl;
 import dao.HumanDao;
 import dao.HumanDaoFileBasedImpl;
+import exceptions.HumanOrApartmenIsNotFound;
 import generators.IdGenerator;
 import generators.IdGeneratorImpl;
 import models.Apartment;
@@ -20,12 +21,12 @@ public class Main {
         FileDaoTemplate template = new FileDaoTemplate(human,apartment,"humans.txt","apartments.txt",idGenerator);
 
         HumanDao humanDao = new HumanDaoFileBasedImpl("humans.txt",template);
-        ApartmentDao apartmentDao = new ApartmentDaoFileBasedImpl("apartments.txt",null,template);
+        ApartmentDao apartmentDao = new ApartmentDaoFileBasedImpl("apartments.txt",idGenerator,template);
 
-        template.saveApartment(idGenerator);
-        template.saveHuman(idGenerator);
-        humanDao.findAll();
-        apartmentDao.findAll();
+
+
+        humanDao.findByName("Egor");
+        apartmentDao.find(4);
 
     }
 
