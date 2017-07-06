@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ApartmentDao extends BaseDao<Apartment> {
 
-    public void findByNumber(int number);
-    public void findByArea(int area);
+    List<Apartment> findByNumber(int number);
+    List<Apartment> findByArea(int area);
 
 }

@@ -1,42 +1,28 @@
 
-import dao.ApartmentDao;
-import dao.ApartmentDaoFileBasedImpl;
-import dao.HumanDao;
-import dao.HumanDaoFileBasedImpl;
-import utils.FileDaoTemplate;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import dao.ApartmentDao;
+import dao.ApartmentDaoJdbcTemplateImpl;
+import dao.HumanDao;
+import dao.HumanDaoJdbcTemplateImpl;
+import models.Apartment;
+import models.Human;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
 
 public class Main {
-    static String databaseUrl = "jdbc:postgresql://localhost:5432/FAKHREEV_BD";
-    static String databaseUsername = "postgres";
-    static String databasePassword = "J8PFekZS";
-
-
-    public static void main(String[] args) {
-        try {
-
-            Connection connection =
-                    DriverManager
-                            .getConnection(databaseUrl, databaseUsername, databasePassword);
-            ApartmentDao apartmentDao = new ApartmentDaoFileBasedImpl(databaseUrl, databaseUsername,
-                    databasePassword);
-
-            HumanDao humanDao = new HumanDaoFileBasedImpl(databaseUrl, databaseUsername,
-                    databasePassword);
-            FileDaoTemplate template = new FileDaoTemplate(databaseUrl, databaseUsername,
-                    databasePassword);
-            humanDao.findAll();
-            apartmentDao.findAll();
+       public static void main(String[] args) {
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("org.postgresql.Driver");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/FAKHREEV_BD");
+        dataSource.setUsername("postgres");
+        dataSource.setPassword("J8PFekZS");
+           HumanDao humanDao = new HumanDaoJdbcTemplateImpl(dataSource);
+           ApartmentDao apartmentDao = new ApartmentDaoJdbcTemplateImpl(dataSource);
+           Apartment apartment = new Apartment(68, 39, 6);
 
 
 
-        } catch (SQLException e) {
-            System.err.println("Ошибка подключения");
-            e.printStackTrace();
-        }
+
 
     }
 

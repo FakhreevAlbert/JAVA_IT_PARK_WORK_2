@@ -1,7 +1,7 @@
 package models;
 
 
-
+import com.google.common.base.MoreObjects;
 
 public class Apartment {
     private int id;
@@ -9,8 +9,8 @@ public class Apartment {
     private int area;
     private int ownerId;
 
-    public Apartment(int id, int number, int area, int ownerId) {
-        this.id = id;
+    public Apartment( int number, int area, int ownerId) {
+
         this.number = number;
         this.area = area;
         this.ownerId = ownerId;
@@ -47,6 +47,14 @@ public class Apartment {
 
     public void setArea(int area) {
         this.area = area;
+    }
+    public String toString() {
+        return MoreObjects.toStringHelper(this)
+                .add("id", id)
+                .add("number", number)
+                .add("area", area)
+                .add("ownerId", ownerId)
+                .toString();
     }
 
 

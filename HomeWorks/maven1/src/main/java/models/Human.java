@@ -1,7 +1,7 @@
 package models;
 
 
-
+import com.google.common.base.MoreObjects;
 
 public class Human {
     private int id;
@@ -9,8 +9,8 @@ public class Human {
     private String surname;
 
 
-    public Human(int id, String name, String surname) {
-        this.id = id;
+    public Human(String name, String surname) {
+
         this.name = name;
         this.surname = surname;
 
@@ -41,6 +41,12 @@ public class Human {
         this.surname = surname;
     }
 
-
+    public String toString() {
+        return MoreObjects.toStringHelper(this)
+                .add("id", id)
+                .add("name", name)
+                .add("surname", surname)
+                .toString();
+    }
 }
 
