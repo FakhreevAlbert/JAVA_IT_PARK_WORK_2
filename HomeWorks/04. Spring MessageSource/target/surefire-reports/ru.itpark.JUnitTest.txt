@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: ru.itpark.JUnitTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.162 sec <<< FAILURE! - in ru.itpark.JUnitTest
+testInjected(InjectedService)  Time elapsed: 0.007 sec  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [ru.itpark.JUnitTest$InjectedService arg0] in executable [public void ru.itpark.JUnitTest.testInjected(ru.itpark.JUnitTest$InjectedService)].
+
