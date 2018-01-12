@@ -11,6 +11,8 @@ import ru.itpark.bean.Sample;
 
 import java.util.stream.IntStream;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 @DisplayName("JUnit functionality demo")
 @ExtendWith(JUnitTest.InjectedServiceResolver.class)
 public class JUnitTest {
@@ -19,10 +21,10 @@ public class JUnitTest {
     @DisplayName("Bean should be not null")
     public void testSampleBean(){
         Sample sample = new ClassPathXmlApplicationContext("beans.xml").getBean(Sample.class);
-        Assertions.assertNotNull(sample, "Bean can't be null");
+        assertNotNull(sample, "Bean can't be null");
         Assertions.assertEquals("Привет из РФ",sample.hello(),"Must inject value");
         Assertions.assertAll(
-                ()->Assertions.assertNotNull(sample,"Bean cant't be null"),
+                ()-> assertNotNull(sample,"Bean cant't be null"),
                 ()->Assertions.assertEquals("Привет из РФ", sample.hello(),"Must inject value")
         );
 
@@ -36,8 +38,7 @@ public class JUnitTest {
 
       @Test
       @DisplayName("JUnit injection demo")
-      public void testInjected(InjectedService service) {
-         Assertions.assertNotNull(service);
+      public void testInjected(InjectedService service) { assertNotNull(service);
       }
 
       static IntStream getValues() {
@@ -52,12 +53,12 @@ public class JUnitTest {
 
         @Override
         public boolean supportsParameter(ParameterContext parameterContext, ExtensionContext extensionContext) throws ParameterResolutionException {
-            return false;
+            return InjectedService.class == parameterContext.getParameter().getType();
         }
 
         @Override
         public Object resolveParameter(ParameterContext parameterContext, ExtensionContext extensionContext) throws ParameterResolutionException {
-            return null;
+            return new InjectedService();
         }
     }
 }
