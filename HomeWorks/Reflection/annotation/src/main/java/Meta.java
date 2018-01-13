@@ -18,7 +18,7 @@ public class Meta {
     @Inject
     private String str;
     @Inject
-    private int num;
+    private String num;
 
 
     public Meta() {
@@ -29,8 +29,8 @@ public class Meta {
 
 
     @Test
-    private void show(String str, int num) {
-        System.out.println("Test " + str + " " + num);
+    private void show() {
+        System.out.println("Test " + str.length() + " " + num.length());
     }
 
     void go() {
@@ -63,13 +63,22 @@ public class Meta {
                 .filter(method -> method.isAnnotationPresent(Test.class))
                 .forEach(method -> {
                     method.setAccessible(true);
-                    Arrays.stream(clazz.getDeclaredFields())
-                            .filter(field -> field.isAnnotationPresent(Inject.class))
-                            .forEach(field -> field.setAccessible(true));
+//                    Arrays.stream(clazz.getDeclaredFields())
+//                            .filter(field -> field.isAnnotationPresent(Inject.class))
+//                            .forEach(field -> field.setAccessible(true));
                     try {
-                        method.invoke(clazz.newInstance(),"Hello", 10);
-
-
+                        Object instance = clazz.newInstance();
+                        Arrays.stream(clazz.getDeclaredFields())
+                                .filter(field -> field.isAnnotationPresent(Inject.class))
+                                .forEach(field -> {
+                                    field.setAccessible(true);
+                                    try {
+                                        field.set(instance, field.getType().newInstance());
+                                    } catch (IllegalAccessException | InstantiationException e) {
+                                        e.printStackTrace();
+                                    }
+                                });
+                        method.invoke(instance);
 
                     } catch (IllegalAccessException | InvocationTargetException | InstantiationException e) {
                         e.printStackTrace();
