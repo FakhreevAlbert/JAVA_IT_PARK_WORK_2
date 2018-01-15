@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.itpark.JUnitTest" time="0.162" tests="6" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.itpark.JUnitTest" time="0.157" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,13 +60,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testSampleBean" classname="ru.itpark.JUnitTest" time="0.123"/>
-  <testcase name="testParametrized" classname="testParametrized(int)" time="0.009"/>
+  <testcase name="testSampleBean" classname="ru.itpark.JUnitTest" time="0.12"/>
+  <testcase name="testParametrized" classname="testParametrized(int)" time="0.012"/>
+  <testcase name="testParametrized" classname="testParametrized(int)" time="0"/>
   <testcase name="testParametrized" classname="testParametrized(int)" time="0.001"/>
   <testcase name="testParametrized" classname="testParametrized(int)" time="0"/>
-  <testcase name="testParametrized" classname="testParametrized(int)" time="0"/>
-  <testcase name="testInjected" classname="ru.itpark.JUnitTest" time="0.007">
-    <error message="No ParameterResolver registered for parameter [ru.itpark.JUnitTest$InjectedService arg0] in executable [public void ru.itpark.JUnitTest.testInjected(ru.itpark.JUnitTest$InjectedService)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [ru.itpark.JUnitTest$InjectedService arg0] in executable [public void ru.itpark.JUnitTest.testInjected(ru.itpark.JUnitTest$InjectedService)].
-</error>
-  </testcase>
+  <testcase name="testInjected" classname="ru.itpark.JUnitTest" time="0.001"/>
 </testsuite>
