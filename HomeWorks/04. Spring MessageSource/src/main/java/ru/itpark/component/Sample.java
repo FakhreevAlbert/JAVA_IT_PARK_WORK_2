@@ -1,16 +1,22 @@
 package ru.itpark.component;
 
 
-import org.springframework.context.MessageSource;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Sample {
-    private MessageSource messageSource;
+    @Value("${hello}")
+    private String message;
 
-    public MessageSource getMessageSource() {
-        return messageSource;
+    public Sample() {
     }
 
-    public void setMessageSource(MessageSource messageSource) {
-        this.messageSource = messageSource;
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

@@ -29,6 +29,8 @@ public class Main {
             .hello()
     );
 
+   // System.out.println(new AnnotationConfigApplicationContext("ru.itpark.component").getBean(ru.itpark.component.Sample.class).getMessage());
+
 
 
 
