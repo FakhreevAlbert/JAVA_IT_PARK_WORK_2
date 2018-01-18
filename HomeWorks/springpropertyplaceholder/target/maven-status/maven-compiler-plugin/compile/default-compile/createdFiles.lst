@@ -1,0 +1,6 @@
+ru\itpark\component\AppPropertyPlaceholderConfigurer.class
+ru\itpark\Main.class
+ru\itpark\config\Config.class
+ru\itpark\bean\Connector.class
+ru\itpark\config\Connector.class
+ru\itpark\component\Connector.class
