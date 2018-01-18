@@ -20,7 +20,12 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -28,86 +33,97 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="-34">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/beans.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+            <state relative-caret-position="748">
+              <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-                <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-                <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+                <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+                <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+                <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+                <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/JavaConfig.java">
+      <file leaf-file-name="JDBCSqliteTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/JDBCSqliteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="1802">
+              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1516287500941" expanded="true" signature="695:724" ph="DROP TABLE I... " />
+                <marker date="1516287500941" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
+                <marker date="1516287500941" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
+                <marker date="1516287500941" expanded="true" signature="1858:1883" ph="SELECT name managers" />
+                <marker date="1516287500941" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
+                <marker date="1516287500941" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
+                <marker date="1516287500941" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <file leaf-file-name="AnnotationConfigApplicationContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <marker date="1515651656384" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1515651656384" expanded="false" signature="162:622" ph="..." />
+                <marker date="1515651656384" expanded="true" signature="907:1042" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="1130:1293" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="1368:1456" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="1528:1608" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="1678:1827" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="1903:2182" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="2270:2416" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="2470:2618" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="2665:2799" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="2891:2977" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="3096:3541" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="3229:3532" ph="{...}" />
+                <marker date="1515651656384" expanded="true" signature="3696:3798" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="films" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.films">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlite_master" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_master">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlite_sequence" pinned="false" current-in-tab="true">
+        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_sequence">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -131,11 +147,14 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0d86063c-ec82-435d-a194-cdf53a9660f3/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/init.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.groovy" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/config/JavaConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/AppDataSource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/JDBCSqliteTests.java" />
+        <option value="$PROJECT_DIR$/src/test/JDBCSqliteTest.java" />
       </list>
     </option>
   </component>
@@ -151,6 +170,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="datasource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="datasource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="546" />
@@ -173,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +248,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itpark" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="05. Spring DataSource" type="b2602c69:ProjectViewProjectNode" />
@@ -223,21 +257,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="05. Spring DataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05. Spring DataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../springdatasource(2)" />
     <property name="SearchEverywhereHistoryKey" value="DataSo&#9;PSI&#9;JAVA://javax.sql.DataSource" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -291,6 +335,86 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="JDBCSqliteTest$TestStatements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="05. Spring DataSource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JDBCSqliteTest$TestStatements" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JDBCSqliteTest$TestStatements.testStatementAdvanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="05. Spring DataSource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JDBCSqliteTest$TestStatements" />
+      <option name="METHOD_NAME" value="testStatementAdvanced" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JDBCSqliteTest$TestStatements.testStatementExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="05. Spring DataSource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JDBCSqliteTest$TestStatements" />
+      <option name="METHOD_NAME" value="testStatementExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JDBCSqliteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="05. Spring DataSource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JDBCSqliteTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -352,9 +476,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements.testStatementExecute" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements.testStatementAdvanced" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements.testStatementAdvanced" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements.testStatementExecute" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JDBCSqliteTest$TestStatements" />
       </list>
     </recent_temporary>
   </component>
@@ -375,37 +510,65 @@
       <workItem from="1515611173829" duration="145000" />
       <workItem from="1515611351141" duration="113000" />
       <workItem from="1515772186387" duration="54000" />
+      <workItem from="1516209712374" duration="1791000" />
+      <workItem from="1516282262610" duration="3948000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JDBCSqliteTest - 2018.01.18 at 17h 57m 12s.xml">
+      <configuration name="JDBCSqliteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest - 2018.01.18 at 17h 57m 59s.xml">
+      <configuration name="JDBCSqliteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest - 2018.01.18 at 17h 58m 23s.xml">
+      <configuration name="JDBCSqliteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest$TestStatements - 2018.01.18 at 17h 56m 48s.xml">
+      <configuration name="JDBCSqliteTest$TestStatements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest$TestStatements_testStatementAdvanced - 2018.01.18 at 17h 57m 06s.xml">
+      <configuration name="JDBCSqliteTest$TestStatements.testStatementAdvanced" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest$TestStatements_testStatementExecute - 2018.01.18 at 17h 55m 21s.xml">
+      <configuration name="JDBCSqliteTest$TestStatements.testStatementExecute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest$TestStatements_testStatementExecute - 2018.01.18 at 17h 56m 06s.xml">
+      <configuration name="JDBCSqliteTest$TestStatements.testStatementExecute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest$TestStatements_testStatementExecute - 2018.01.18 at 17h 56m 57s.xml">
+      <configuration name="JDBCSqliteTest$TestStatements.testStatementExecute" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2322000" />
+    <option name="totallyTimeSpent" value="8061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-4" width="1861" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1041" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17305644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34061137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19008264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19382322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,7 +578,6 @@
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -430,11 +592,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/JavaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -455,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,9 +673,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -526,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,9 +736,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -573,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,9 +791,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -654,9 +847,10 @@
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -699,9 +893,10 @@
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -709,35 +904,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0d86063c-ec82-435d-a194-cdf53a9660f3/console.sql" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/sql/DataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/init.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,21 +915,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="68">
           <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Spring DataSource.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <marker date="1515651656384" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1515651656384" expanded="false" signature="162:622" ph="..." />
+            <marker date="1515651656384" expanded="true" signature="907:1042" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="1130:1293" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="1368:1456" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="1528:1608" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="1678:1827" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="1903:2182" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="2270:2416" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="2470:2618" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="2665:2799" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="2891:2977" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="3096:3541" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="3229:3532" ph="{...}" />
+            <marker date="1515651656384" expanded="true" signature="3696:3798" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/AppDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/JDBCSqliteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516287500941" expanded="true" signature="695:724" ph="DROP TABLE I... " />
+            <marker date="1516287500941" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
+            <marker date="1516287500941" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
+            <marker date="1516287500941" expanded="true" signature="1858:1883" ph="SELECT name managers" />
+            <marker date="1516287500941" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
+            <marker date="1516287500941" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
+            <marker date="1516287500941" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/JavaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -769,16 +1023,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+        <state relative-caret-position="748">
+          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1513848213200" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1513848213200" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.films">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring DataSource|05</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.codehaus.groovy:groovy-all:3.0.0-alpha-1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

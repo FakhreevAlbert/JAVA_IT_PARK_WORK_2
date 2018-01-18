@@ -62,6 +62,22 @@ public class Main {
       e.printStackTrace();
     }
 
+      AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("ru.itpark.component");
+      DataSource dataSource = context.getBean(DataSource.class);
+      try (Connection connection = dataSource.getConnection()) {
+        try (Statement statement = connection.createStatement()) {
+          try (ResultSet rs = statement.executeQuery("SELECT * FROM films")) {
+            while (rs.next()) {
+              System.out.println(rs.getInt("id"));
+            }
+          }
+        }
+      } catch (SQLException e) {
+        e.printStackTrace();
+      }
+    }
 
-  }
+
+
+
 }

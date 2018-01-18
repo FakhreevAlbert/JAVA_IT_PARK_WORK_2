@@ -23,7 +23,7 @@ public class GroovyTest {
         Sample sample = applicationContext.getBean(Sample.class);
 
         Assertions.assertAll(
-                ()->Assertions.assertNotNull(basename, "Dean is noy null"),
+                ()->Assertions.assertNotNull(basename, "Bean is noy null"),
                 ()->Assertions.assertEquals(basename, sample.hello())
         );
     }

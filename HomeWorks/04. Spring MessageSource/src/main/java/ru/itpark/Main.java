@@ -11,7 +11,7 @@ import java.util.Locale;
 
 public class Main {
   public static void main(String[] args) {
-    Locale.setDefault(new Locale("en", "US"));
+    Locale.setDefault(new Locale("ru", "RU"));
     System.out.println(
         new GenericGroovyApplicationContext(
             "beans.groovy"

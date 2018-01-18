@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="05. Spring DataSource" target="1.7" />
+      <module name="05. Spring DataSource" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
