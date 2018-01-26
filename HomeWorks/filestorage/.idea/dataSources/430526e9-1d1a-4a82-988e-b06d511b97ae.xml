@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="filestorage@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="db.postgres">
+      <ObjectId>16393</ObjectId>
+    </database>
+    <database id="3" parent="1" name="filestorage">
+      <ObjectId>16395</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="4" parent="1" name="postgres">
+      <ObjectId>12029</ObjectId>
+    </database>
+    <role id="5" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="6" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-01-24.09:31:28.461</IntrospectionTimestamp>
+      <IntrospectionStateNumber>699</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="8" parent="3" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="9" parent="3" name="pg_temp_1">
+      <ObjectId>11215</ObjectId>
+    </schema>
+    <schema id="10" parent="3" name="pg_toast_temp_1">
+      <ObjectId>11216</ObjectId>
+    </schema>
+    <schema id="11" parent="3" name="information_schema">
+      <ObjectId>11480</ObjectId>
+    </schema>
+    <sequence id="12" parent="6" name="users_id_seq">
+      <ObjectId>16396</ObjectId>
+      <StateNumber>682</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="13" parent="6" name="files">
+      <ObjectId>16434</ObjectId>
+      <StateNumber>699</StateNumber>
+    </table>
+    <table id="14" parent="6" name="users">
+      <ObjectId>16398</ObjectId>
+      <StateNumber>699</StateNumber>
+    </table>
+    <column id="15" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>699</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="16" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>699</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="17" parent="13" name="size">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>699</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="18" parent="13" name="user_id">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>699</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="19" parent="13" name="files_pkey">
+      <ObjectId>16440</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="13" name="files_pkey">
+      <ObjectId>16441</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>files_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="21" parent="13" name="files_user_id_fkey">
+      <ObjectId>16442</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16398</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="22" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>682</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>users_id_seq</SequenceName>
+    </column>
+    <column id="23" parent="14" name="login">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>682</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="24" parent="14" name="name">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>682</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="25" parent="14" name="users_pkey">
+      <ObjectId>16405</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="26" parent="14" name="users_login_uindex">
+      <ObjectId>16407</ObjectId>
+      <ColNames>login</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="27" parent="14" name="users_pkey">
+      <ObjectId>16406</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
