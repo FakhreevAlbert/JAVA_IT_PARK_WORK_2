@@ -48,22 +48,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Movie.java">
+      <file leaf-file-name="KeywordImportTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/KeywordImportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1517310296626" expanded="true" signature="2660:2695" ph="(INSERT INTO... " />
+                <marker date="1517310296626" expanded="true" signature="2660:2704" ph="(INSERT INTO... " />
+                <marker date="1517310296626" expanded="true" signature="2660:2718" ph="(INSERT INTO... " />
+                <marker date="1517310296626" expanded="true" signature="2660:2728" ph="INSERT INTO keywords... " />
+                <marker date="1517310296626" expanded="true" signature="2660:2731" ph="(INSERT INTO... " />
+                <marker date="1517310296626" expanded="true" signature="2660:2732" ph="INSERT INTO keywords... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeywordProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-              <folding />
+      <file leaf-file-name="keywords" pinned="false" current-in-tab="true">
+        <entry file="das://table:/d3e636c0/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.keywords">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -71,39 +88,34 @@
       <file leaf-file-name="KeywordStorageSQLiteImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorageSQLiteImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+            <state relative-caret-position="72">
+              <caret line="33" column="110" lean-forward="false" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1517252596466" expanded="true" signature="996:1025" ph="DROP TABLE I... " />
-                <marker date="1517252596466" expanded="true" signature="1056:1154" ph="CREATE TABLE... IF" />
-                <marker date="1517252596466" expanded="true" signature="1458:1511" ph="INSERT INTO keywords... " />
+                <marker date="1517310072321" expanded="true" signature="996:1025" ph="DROP TABLE I... " />
+                <marker date="1517310072321" expanded="true" signature="1056:1155" ph="CREATE TABLE... IF" />
+                <marker date="1517310072321" expanded="true" signature="1459:1512" ph="INSERT INTO keywords... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/AppConfig.java">
+      <file leaf-file-name="MovieProviderKaggleImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MovieProviderKaggleImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keyword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Keyword.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeywordImportTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/KeywordImportTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="65" column="63" lean-forward="false" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1517258152127" expanded="true" signature="2105:2159" ph="(INSERT INTO... " />
-              </folding>
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,8 +123,29 @@
       <file leaf-file-name="KeywordImporterImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordImporterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="250">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieImportTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/MovieImportTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keywords.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/keywords.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -121,38 +154,8 @@
       <file leaf-file-name="KeywordProviderKaggleImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProviderKaggleImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keywords" pinned="false" current-in-tab="false">
-        <entry file="das://table:/cc87c6df/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.keywords">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keywords.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/keywords.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="-144">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,12 +195,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordImporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordImporterImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/itpark/MovieImportTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProviderKaggleImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/domain/Keyword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorageSQLiteImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/itpark/KeywordReaderTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/itpark/MovieImportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorageSQLiteImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/domain/Keyword.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/itpark/KeywordImportTest.java" />
       </list>
     </option>
@@ -252,6 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,10 +352,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,9 +605,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.KeywordImportTest.testKeywordImportToDataBase" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KeywordImportTest.testKeywordReader" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KeywordImportTest.testKeywordImport" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KeywordImportTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KeywordImportTest.testKeywordImport" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KeywordImportTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KeywordImportTest.testKeywordReader" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MovieImportTest.testKeywordImport" />
       </list>
     </recent_temporary>
@@ -633,65 +636,65 @@
       <workItem from="1516790502903" duration="909000" />
       <workItem from="1516855417417" duration="26000" />
       <workItem from="1517244208534" duration="9075000" />
+      <workItem from="1517304571514" duration="6337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KeywordImportTest - 2018.01.29 at 22h 06m 37s.xml">
-      <configuration name="KeywordImportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KeywordImportTest - 2018.01.29 at 22h 09m 29s.xml">
-      <configuration name="KeywordImportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordImport - 2018.01.29 at 22h 12m 38s.xml">
-      <configuration name="KeywordImportTest.testKeywordImport" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.29 at 23h 08m 57s.xml">
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 50m 17s.xml">
       <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.29 at 23h 11m 57s.xml">
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 51m 02s.xml">
       <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.29 at 23h 35m 55s.xml">
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 53m 31s.xml">
       <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordReader - 2018.01.29 at 22h 47m 47s.xml">
-      <configuration name="KeywordImportTest.testKeywordReader" configurationId="JUnit" />
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 54m 33s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordReader - 2018.01.29 at 22h 48m 14s.xml">
-      <configuration name="KeywordImportTest.testKeywordReader" configurationId="JUnit" />
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 55m 16s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordReader - 2018.01.29 at 22h 48m 38s.xml">
-      <configuration name="KeywordImportTest.testKeywordReader" configurationId="JUnit" />
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 55m 40s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeywordImportTest_testKeywordReader - 2018.01.29 at 22h 51m 19s.xml">
-      <configuration name="KeywordImportTest.testKeywordReader" configurationId="JUnit" />
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 13h 56m 04s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 14h 02m 30s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 14h 04m 05s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeywordImportTest_testKeywordImportToDataBase - 2018.01.30 at 14h 05m 00s.xml">
+      <configuration name="KeywordImportTest.testKeywordImportToDataBase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36915000" />
+    <option name="totallyTimeSpent" value="43252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1041" extended-state="6" />
+    <frame x="59" y="-4" width="1861" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264192" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260188" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3155022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4493208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14802982" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18071625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765841" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494759" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -704,6 +707,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,29 +723,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MoviesImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MoviesImporterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +752,7 @@
         <state relative-caret-position="189">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,9 +763,6 @@
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1515956460000" expanded="true" signature="1074:1101" ph="DROP TABLE I... " />
-            <marker date="1515956460000" expanded="true" signature="1126:1220" ph="CREATE TABLE... IF" />
-            <marker date="1515956460000" expanded="true" signature="1494:1542" ph="INSERT INTO movies... " />
           </folding>
         </state>
       </provider>
@@ -800,13 +783,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.5/commons-csv-1.5.jar!/org/apache/commons/csv/CSVRecord.class" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -814,13 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/nio/file/NoSuchFileException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/nio/file/NoSuchFileException.java" />
     <entry file="uml://JAVA/java.nio.file.NoSuchFileException">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -868,22 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml.ws.annotation/javax/annotation/PostConstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml.ws.annotation/javax/annotation/PostConstruct.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Component.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/268ee77e-6a2e-46c3-adc3-ed141b6b4457/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/268ee77e-6a2e-46c3-adc3-ed141b6b4457/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -891,20 +850,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt://C:/Program Files/Java/jdk-9.0.1!/java.xml/javax/xml/transform/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.1.4.jre7/postgresql-42.1.4.jre7.jar!/org/postgresql/core/ResultCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-9.0.1!/java.xml/javax/xml/transform/Result.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.1.4.jre7/postgresql-42.1.4.jre7.jar!/org/postgresql/core/ResultCursor.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/spring-test-5.0.2.RELEASE.jar!/org/springframework/test/web/servlet/ResultActions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,28 +859,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml/javax/xml/transform/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt://C:/Program Files/Java/jdk-9.0.1!/jdk.plugin/com/sun/java/browser/plugin2/liveconnect/v1/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1afc5537-6b28-492a-9e3f-7a71dcc6a446/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml/javax/xml/transform/Result.java" />
+    <entry file="jrt://C:/Program Files/Java/jdk-9.0.1!/jdk.plugin/com/sun/java/browser/plugin2/liveconnect/v1/Result.class" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1afc5537-6b28-492a-9e3f-7a71dcc6a446/console.sql" />
     <entry file="file://$PROJECT_DIR$/data/movies_metadata.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="85">
@@ -941,13 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/cc87c6df/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/cc87c6df/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.sqlite_master" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MovieStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -970,19 +892,6 @@
           <caret line="54" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1515956460000" expanded="true" signature="1074:1101" ph="DROP TABLE I... " />
-            <marker date="1515956460000" expanded="true" signature="1126:1220" ph="CREATE TABLE... IF" />
-            <marker date="1515956460000" expanded="true" signature="1494:1542" ph="INSERT INTO movies... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,21 +904,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/MovieImportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.jar!/org/sqlite/core/DB.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="373" column="0" lean-forward="false" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,16 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MovieProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1039,34 +927,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MovieProviderKaggleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Keyword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="0">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
@@ -1074,10 +937,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="90">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,75 +953,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/KeywordReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/KeywordReaderTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="1314">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/keywords.csv">
+    <entry file="das://table:/cc87c6df/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.keywords" />
+    <entry file="jar://$USER_HOME$/jdk9/jdk-9.0.4/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="209">
+          <caret line="473" column="0" lean-forward="false" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordImporterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="250">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/MovieImportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordProviderKaggleImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="-144">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/KeywordStorageSQLiteImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="72">
+          <caret line="33" column="110" lean-forward="false" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517252596466" expanded="true" signature="996:1025" ph="DROP TABLE I... " />
-            <marker date="1517252596466" expanded="true" signature="1056:1154" ph="CREATE TABLE... IF" />
-            <marker date="1517252596466" expanded="true" signature="1458:1511" ph="INSERT INTO keywords... " />
+            <marker date="1517310072321" expanded="true" signature="996:1025" ph="DROP TABLE I... " />
+            <marker date="1517310072321" expanded="true" signature="1056:1155" ph="CREATE TABLE... IF" />
+            <marker date="1517310072321" expanded="true" signature="1459:1512" ph="INSERT INTO keywords... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/cc87c6df/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.keywords">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/MovieProviderKaggleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/domain/Keyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/keywords.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/itpark/KeywordImportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="65" column="63" lean-forward="false" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+        <state relative-caret-position="234">
+          <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517258152127" expanded="true" signature="2105:2159" ph="(INSERT INTO... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2695" ph="(INSERT INTO... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2704" ph="(INSERT INTO... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2718" ph="(INSERT INTO... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2728" ph="INSERT INTO keywords... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2731" ph="(INSERT INTO... " />
+            <marker date="1517310296626" expanded="true" signature="2660:2732" ph="INSERT INTO keywords... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d3e636c0/1afc5537-6b28-492a-9e3f-7a71dcc6a446/main.keywords">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

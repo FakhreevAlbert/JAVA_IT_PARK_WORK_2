@@ -31,7 +31,7 @@ public class KeywordStorageSQLiteImpl implements KeywordStorage, InitializingBea
         connection = dataSource.getConnection();
         try (Statement stmt = connection.createStatement()) {
             stmt.execute("DROP TABLE IF EXISTS keywords;");
-            stmt.execute("CREATE TABLE IF NOT EXISTS keywords ( id INTEGER PRIMARY KEY AUTOINCREMENT, keyword TEXT NOT NULL);");
+            stmt.execute("CREATE TABLE IF NOT EXISTS keywords ( id INTEGER PRIMARY KEY AUTOINCREMENT, keywords TEXT NOT NULL);");
         }
     }
 

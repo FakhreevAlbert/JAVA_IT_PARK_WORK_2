@@ -33,24 +33,24 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
+            <state relative-caret-position="288">
               <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <state relative-caret-position="18">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-                <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-                <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-                <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+                <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+                <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+                <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+                <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
               </folding>
             </state>
           </provider>
@@ -59,17 +59,17 @@
       <file leaf-file-name="JDBCSqliteTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/JDBCSqliteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516287500941" expanded="true" signature="695:724" ph="DROP TABLE I... " />
-                <marker date="1516287500941" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
-                <marker date="1516287500941" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
-                <marker date="1516287500941" expanded="true" signature="1858:1883" ph="SELECT name managers" />
-                <marker date="1516287500941" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
-                <marker date="1516287500941" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
-                <marker date="1516287500941" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
+                <marker date="1516352313768" expanded="true" signature="695:724" ph="DROP TABLE I... " />
+                <marker date="1516352313768" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
+                <marker date="1516352313768" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
+                <marker date="1516352313768" expanded="true" signature="1858:1883" ph="SELECT name managers" />
+                <marker date="1516352313768" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
+                <marker date="1516352313768" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
+                <marker date="1516352313768" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
               </folding>
             </state>
           </provider>
@@ -78,52 +78,25 @@
       <file leaf-file-name="AnnotationConfigApplicationContext.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="180">
               <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
-                <marker date="1515651656384" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1515651656384" expanded="false" signature="162:622" ph="..." />
-                <marker date="1515651656384" expanded="true" signature="907:1042" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="1130:1293" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="1368:1456" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="1528:1608" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="1678:1827" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="1903:2182" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="2270:2416" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="2470:2618" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="2665:2799" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="2891:2977" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="3096:3541" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="3229:3532" ph="{...}" />
-                <marker date="1515651656384" expanded="true" signature="3696:3798" ph="{...}" />
+                <marker date="1513521740680" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1513521740680" expanded="false" signature="162:622" ph="..." />
+                <marker date="1513521740680" expanded="true" signature="907:1042" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="1130:1293" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="1368:1456" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="1528:1608" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="1678:1827" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="1903:2182" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="2270:2416" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="2470:2618" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="2665:2799" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="2891:2977" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="3096:3541" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="3229:3532" ph="{...}" />
+                <marker date="1513521740680" expanded="true" signature="3696:3798" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="films" pinned="false" current-in-tab="false">
-        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.films">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite_master" pinned="false" current-in-tab="false">
-        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_master">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite_sequence" pinned="false" current-in-tab="true">
-        <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_sequence">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -187,7 +160,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="546" />
     <option name="y" value="38" />
     <option name="width" value="590" />
@@ -246,15 +219,6 @@
               <item name="05. Spring DataSource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itpark" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05. Spring DataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05. Spring DataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,19 +231,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../springdatasource(2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movies-sample" />
     <property name="SearchEverywhereHistoryKey" value="DataSo&#9;PSI&#9;JAVA://javax.sql.DataSource" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -512,6 +476,8 @@
       <workItem from="1515772186387" duration="54000" />
       <workItem from="1516209712374" duration="1791000" />
       <workItem from="1516282262610" duration="3948000" />
+      <workItem from="1516358685206" duration="253000" />
+      <workItem from="1517295896695" duration="8909000" />
     </task>
     <servers />
   </component>
@@ -523,6 +489,12 @@
       <configuration name="JDBCSqliteTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JDBCSqliteTest - 2018.01.18 at 17h 58m 23s.xml">
+      <configuration name="JDBCSqliteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest - 2018.01.19 at 13h 48m 01s.xml">
+      <configuration name="JDBCSqliteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCSqliteTest - 2018.01.19 at 13h 48m 21s.xml">
       <configuration name="JDBCSqliteTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JDBCSqliteTest$TestStatements - 2018.01.18 at 17h 56m 48s.xml">
@@ -542,33 +514,33 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8061000" />
+    <option name="totallyTimeSpent" value="17223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1041" extended-state="6" />
+    <frame x="59" y="-4" width="1861" height="1084" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17305644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33960292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34061137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19382322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1983471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12341598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,6 +550,7 @@
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -592,7 +565,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -601,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,10 +591,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -641,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,10 +641,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -685,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,10 +699,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -748,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,10 +750,10 @@
           <caret line="48" column="108" lean-forward="false" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -803,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,10 +801,10 @@
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -859,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,10 +844,10 @@
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
         </state>
       </provider>
@@ -930,68 +881,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="180">
           <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding>
-            <marker date="1515651656384" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515651656384" expanded="false" signature="162:622" ph="..." />
-            <marker date="1515651656384" expanded="true" signature="907:1042" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="1130:1293" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="1368:1456" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="1528:1608" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="1678:1827" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="1903:2182" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="2270:2416" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="2470:2618" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="2665:2799" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="2891:2977" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="3096:3541" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="3229:3532" ph="{...}" />
-            <marker date="1515651656384" expanded="true" signature="3696:3798" ph="{...}" />
+            <marker date="1513521740680" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513521740680" expanded="false" signature="162:622" ph="..." />
+            <marker date="1513521740680" expanded="true" signature="907:1042" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="1130:1293" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="1368:1456" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="1528:1608" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="1678:1827" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="1903:2182" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="2270:2416" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="2470:2618" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="2665:2799" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="2891:2977" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="3096:3541" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="3229:3532" ph="{...}" />
+            <marker date="1513521740680" expanded="true" signature="3696:3798" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/AppDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/JDBCSqliteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516287500941" expanded="true" signature="695:724" ph="DROP TABLE I... " />
-            <marker date="1516287500941" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
-            <marker date="1516287500941" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
-            <marker date="1516287500941" expanded="true" signature="1858:1883" ph="SELECT name managers" />
-            <marker date="1516287500941" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
-            <marker date="1516287500941" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
-            <marker date="1516287500941" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/component/AppDataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/init.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,13 +920,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
+        <state relative-caret-position="288">
           <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding />
         </state>
@@ -1015,44 +935,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.films" />
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_master" />
+    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_sequence" />
+    <entry file="file://$PROJECT_DIR$/src/test/JDBCSqliteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1516352313768" expanded="true" signature="695:724" ph="DROP TABLE I... " />
+            <marker date="1516352313768" expanded="true" signature="758:950" ph="CREATE TABLE... managers" />
+            <marker date="1516352313768" expanded="true" signature="1315:1409" ph="INSERT INTO managers... " />
+            <marker date="1516352313768" expanded="true" signature="1858:1883" ph="SELECT name managers" />
+            <marker date="1516352313768" expanded="true" signature="2978:3000" ph="SELECT * FRO... managers" />
+            <marker date="1516352313768" expanded="true" signature="3038:3099" ph="INSERT INTO managers... " />
+            <marker date="1516352313768" expanded="true" signature="3137:3159" ph="SELECT * FRO... managers" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="18">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516283276917" expanded="true" signature="864:903" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
-            <marker date="1516283276917" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
+            <marker date="1516352313768" expanded="true" signature="864:903" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="1456:1495" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2077:2116" ph="SELECT id, n... films" />
+            <marker date="1516352313768" expanded="true" signature="2739:2758" ph="SELECT * FRO... films" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.films">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8cc10fd9/0d86063c-ec82-435d-a194-cdf53a9660f3/main.sqlite_sequence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1012,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1108,12 +1024,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring DataSource|05</last-edited>
+          <last-edited>05</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

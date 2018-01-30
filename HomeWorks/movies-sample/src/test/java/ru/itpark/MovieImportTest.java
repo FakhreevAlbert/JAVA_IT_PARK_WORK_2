@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MovieImportTest {
   @Autowired // допустимо, т.к. это тест
   private MoviesImporter importer;
-  private KeywordImporter keywordImporter;
+
 
   @Test
   public void testImport() {
@@ -32,18 +32,6 @@ public class MovieImportTest {
 
   }
 
-  @Test
-  public void testKeywordImport(){
-    KeywordImporter.KeywordResult keywordResult = keywordImporter.run();
-    assertAll(
-            ()-> assertNotEquals(0,keywordResult.getProcessed()),
-            ()->assertEquals(45466,keywordResult.getProcessed()),
-            ()->assertNotEquals(0,keywordResult.getSucceed()),
-            ()->assertEquals(keywordResult.getProcessed(), keywordResult.getSucceed() + keywordResult.getFailed())
-
-    );
-
-  }
 
 
 

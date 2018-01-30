@@ -60,35 +60,39 @@ public class KeywordImportTest {
 
         String csvFile = "data/keywords.csv";
         BufferedReader br = null;
-        String line = "";
+        String line;
         String cvsSplitBy = ",";
         PreparedStatement statement = null;
-        String query = "(INSERT INTO keywords ('id', 'keywords') VALUES (?, ?)";
 
         try {
             br = new BufferedReader(new FileReader(csvFile));
             String[] array;
+            int count = 0;
             try {
-                Connection connection = DriverManager.getConnection("jdbc:sqlite:C:/java/movies-sample/data\\db.sqlite");
-                statement = connection.prepareStatement(query);
+                Connection connection = DriverManager.getConnection("jdbc:sqlite:/home/albert/Projects/MyWork/JAVA_IT_PARK_WORK_2/HomeWorks/movies-sample/data\\db.sqlite");
+                while ((line = br.readLine()) != null)  // цикл построчного чтения
+                {
+                   count++;
+                   if (count > 1) {
+                        array = line.split(cvsSplitBy);
+                        String query = "INSERT INTO keywords (id, keywords) VALUES ("+array[0]+", "+array[1]+")";
+
+
+                        statement = connection.prepareStatement(query);
+                        statement.executeUpdate();
+
+
+                        System.out.println(array[0] + array[1]);
+
+                    }
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
 
-            while ((line = br.readLine()) != null)  // цикл построчного чтения
-            {
 
-                array = line.split(cvsSplitBy);
-
-             /*   System.out.println(stolbec[0] + stolbec[1] + stolbec[2] + stolbec[3] + stolbec[4] + stolbec[5] + stolbec[6]
-                        + stolbec[7] + stolbec[8] + stolbec[9] + stolbec[10] + stolbec[11] + stolbec[12]); */
-
-                statement.execute(query);
-            }
 
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             {
@@ -99,11 +103,4 @@ public class KeywordImportTest {
         }
     }
 }
-
-
-
-
-
-
-
 

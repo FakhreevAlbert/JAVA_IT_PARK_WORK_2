@@ -4,9 +4,9 @@ public class Keyword {
     private int id;
     private String keywords;
 
-    public Keyword(int id, String keyword) {
+    public Keyword(int id, String keywords) {
         this.id = id;
-        this.keywords = keyword;
+        this.keywords = keywords;
 
     }
 
@@ -22,7 +22,7 @@ public class Keyword {
         return keywords;
     }
 
-    public void setKeyword(String keyword) {
-        this.keywords = keyword;
+    public void setKeyword(String keywords) {
+        this.keywords = keywords;
     }
 }
