@@ -19,16 +19,17 @@ public class SaleServiceImpl implements SaleService {
     }
 
     @Override
-    public List<Sale> findAll(){
+    public List<Sale> findAll() {
         return saleRepository.findAll();
     }
 
     @Override
-    public Sale findById(int id){
-        return saleRepository.findByid(id);
+    public Sale findById(int id) {
+        return saleRepository.findById(id);
     }
+
     @Override
-    public List<Sale> findByName(String name){
-        return saleRepository.findByNameContainingIgnoreCase(name);
+    public List<Sale> findByName(String manager) {
+        return saleRepository.findByNameContainingIgnoreCase(manager);
     }
 }

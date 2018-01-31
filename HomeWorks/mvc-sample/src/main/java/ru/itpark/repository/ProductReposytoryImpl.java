@@ -19,25 +19,25 @@ public class ProductReposytoryImpl implements ProductReposytory {
     @Autowired
     public ProductReposytoryImpl(DataSource dataSource) {
         jdbcTemplate = new NamedParameterJdbcTemplate(dataSource);
-        productRowMapper = (rs, i)-> new Product(rs.getInt("id"),
+        productRowMapper = (rs, i) -> new Product(rs.getInt("id"),
                 rs.getString("name"),
                 rs.getInt("price"),
                 rs.getInt("amount"));
     }
 
     @Override
-    public List<Product> findAll(){
+    public List<Product> findAll() {
         return jdbcTemplate.query("SELECT id, name, price, amount FROM goods", productRowMapper);
     }
 
     @Override
-    public Product findById(int id){
+    public Product findById(int id) {
         return jdbcTemplate.queryForObject("SELECT id, name, price, amount FROM goods WHERE id = :id",
-                Map.of("id", id),productRowMapper);
+                Map.of("id", id), productRowMapper);
     }
 
     @Override
-    public List<Product> findByNameContainingIgnoreCase(String name){
+    public List<Product> findByNameContainingIgnoreCase(String name) {
         return jdbcTemplate.query("SELECT id, name, price, amount FROM goods WHERE name ILIKE :name",
                 Map.of("name", name), productRowMapper);
     }

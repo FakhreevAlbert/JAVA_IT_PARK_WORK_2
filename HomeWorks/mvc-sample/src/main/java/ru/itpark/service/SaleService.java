@@ -9,5 +9,5 @@ public interface SaleService {
 
     Sale findById(int id);
 
-    List<Sale> findByName(String name);
+    List<Sale> findByName(String manager);
 }

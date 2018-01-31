@@ -41,8 +41,9 @@ public class ManagerRepositoryImpl implements ManagerRepository {
                 managerRowMapper
         );
     }
+
     @Override
-    public List<Manager> findByNameContainingIgnoreCase(String name){
+    public List<Manager> findByNameContainingIgnoreCase(String name) {
         return jdbcTemplate.query("SELECT id, name, salary FROM managers WHERE name ILIKE :name",
                 Map.of("name", name), managerRowMapper);
     }

@@ -21,17 +21,19 @@ public class ManagerController {
     }
 
     @GetMapping
-    public String getAll(HttpServletRequest request){
+    public String getAll(HttpServletRequest request) {
         request.setAttribute("managers", managerService.findAll());
-   return "managers";
+        return "managers";
     }
+
     @GetMapping("/{id}")
-    public String getById(@PathVariable int id, HttpServletRequest request){
-     request.setAttribute("manager", managerService.findById(id));
-     return "manager";
+    public String getById(@PathVariable int id, HttpServletRequest request) {
+        request.setAttribute("manager", managerService.findById(id));
+        return "manager";
     }
+
     @GetMapping(params = "name")
-    public String searchByName(@RequestParam String name, HttpServletRequest request){
+    public String searchByName(@RequestParam String name, HttpServletRequest request) {
         request.setAttribute("managers", managerService.findByName(name));
         return "managers";
     }

@@ -6,7 +6,7 @@
               driverClassName="org.postgresql.Driver"
               url="jdbc:postgresql://localhost:5432/postgres"
               username="postgres"
-              password="qwerty007"
+              password="J8PFekZS"
               maxActive="20"
               maxIdle="10"
               maxWait="-1"/>

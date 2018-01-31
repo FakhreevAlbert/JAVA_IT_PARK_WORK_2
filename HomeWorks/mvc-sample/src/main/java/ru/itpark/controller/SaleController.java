@@ -15,32 +15,30 @@ import javax.servlet.http.HttpServletRequest;
 public class SaleController {
 
     private final SaleService saleService;
+
     @Autowired
     public SaleController(SaleService saleService) {
         this.saleService = saleService;
     }
 
     @GetMapping
-    public String getAll(HttpServletRequest request){
+    public String getAll(HttpServletRequest request) {
 
-        request.setAttribute("sales", saleService.findAll() );
+        request.setAttribute("sales", saleService.findAll());
         return "sales";
     }
 
     @GetMapping("/{id}")
-    public String getById(@PathVariable int id, HttpServletRequest request){
+    public String getById(@PathVariable int id, HttpServletRequest request) {
         request.setAttribute("sale", saleService.findById(id));
         return "sale";
     }
 
-    @GetMapping(params = "name")
-    public String getByName(@RequestParam String name, HttpServletRequest request){
-        request.setAttribute("sales", saleService.findByName(name));
+    @GetMapping(params = "manager")
+    public String getByName(@RequestParam String manager, HttpServletRequest request) {
+        request.setAttribute("sales", saleService.findByName(manager));
         return "sales";
     }
-
-
-
 
 
 }

@@ -8,7 +8,7 @@ import java.util.List;
 public interface SaleRepository {
     List<Sale> findAll();
 
-    Sale findByid(int id);
+    Sale findById(int id);
 
-    List<Sale> findByNameContainingIgnoreCase(String name);
+    List<Sale> findByNameContainingIgnoreCase(String manager);
 }

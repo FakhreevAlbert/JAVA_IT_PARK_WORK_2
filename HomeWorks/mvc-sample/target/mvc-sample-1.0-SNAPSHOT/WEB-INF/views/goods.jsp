@@ -7,7 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
+<%@include file="header.jsp" %>
 
 <div class="container">
     <div class="row">
@@ -15,12 +15,13 @@
             <h1>Goods List</h1>
             <form class="form-inline">
                 <label for="search" class="sr-only">Name</label>
-                <input type="search" id="search" name="name" class="form-control mb-2 mr-sm-2" placeholder="Product name">
+                <input type="search" id="search" name="name" class="form-control mb-2 mr-sm-2"
+                       placeholder="Product name">
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
             </form>
 
             <% List<Product> goods = (List<Product>) request.getAttribute("goods"); %>
-            <% if (goods != null && goods.size() > 0){%>
+            <% if (goods != null && goods.size() > 0) {%>
             <ul class="list-group">
                 <% for (Product product : goods) { %>
                 <li class="list-group-item">
@@ -48,4 +49,4 @@
     </div>
 </div>
 
-<%@include file="footer.jsp"%>
+<%@include file="footer.jsp" %>

@@ -15,17 +15,19 @@ public class ManagerServiceImpl implements ManagerService {
     public ManagerServiceImpl(ManagerRepository managerRepository) {
         this.managerRepository = managerRepository;
     }
+
     @Override
-    public List<Manager> findAll(){
+    public List<Manager> findAll() {
         return managerRepository.findAll();
     }
 
     @Override
-    public Manager findById(int id){
+    public Manager findById(int id) {
         return managerRepository.findById(id);
     }
+
     @Override
-    public List<Manager> findByName(String name){
+    public List<Manager> findByName(String name) {
         return managerRepository.findByNameContainingIgnoreCase(name);
     }
 }

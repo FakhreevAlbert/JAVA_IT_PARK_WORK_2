@@ -2,16 +2,16 @@ package ru.itpark.domain;
 
 public class Sale {
     private int id;
-    private String manager_name;
-    private String product_name;
-    private int sold_amount;
+    private String manager;
+    private String product;
+    private int sold;
     private int price;
 
-    public Sale(int id, String manager_name, String product_name, int sold_amount, int price) {
+    public Sale(int id, String manager, String product, int sold, int price) {
         this.id = id;
-        this.manager_name = manager_name;
-        this.product_name = product_name;
-        this.sold_amount = sold_amount;
+        this.manager = manager;
+        this.product = product;
+        this.sold = sold;
         this.price = price;
     }
 
@@ -24,28 +24,28 @@ public class Sale {
         this.id = id;
     }
 
-    public String getManager_name() {
-        return manager_name;
+    public String getManager() {
+        return manager;
     }
 
-    public void setManager_name(String manager_name) {
-        this.manager_name = manager_name;
+    public void setManager(String manager) {
+        this.manager = manager;
     }
 
-    public String getProduct_name() {
-        return product_name;
+    public String getProduct() {
+        return product;
     }
 
-    public void setProduct_name(String product_name) {
-        this.product_name = product_name;
+    public void setProduct(String product) {
+        this.product = product;
     }
 
-    public int getSold_amount() {
-        return sold_amount;
+    public int getSold() {
+        return sold;
     }
 
-    public void setSold_amount(int sold_amount) {
-        this.sold_amount = sold_amount;
+    public void setSold(int sold) {
+        this.sold = sold;
     }
 
     public int getPrice() {
