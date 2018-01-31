@@ -33,6 +33,15 @@
             <% } else { %>
             <p>No managers</p>
             <% } %>
+            <ul class="list-group">
+                <li class="list-group-item">
+                        <a href="/goods">Goods list</a>
+
+                </li>
+                <li class="list-group-item">
+                    <a href="/sales">Sales list</a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

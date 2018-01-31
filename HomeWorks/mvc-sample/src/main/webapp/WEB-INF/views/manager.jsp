@@ -18,6 +18,7 @@
             </h1>
             <p>Salary: <%=manager.getSalary()%>
             </p>
+            <a href="/managers">Managers list</a>
         </div>
     </div>
 </div>
